@@ -18,6 +18,6 @@ C++는 컴파일 시점에서 템플릿이 인스턴스화 되지만, C#에서�
 
 아래 사진에 있는 구체적인 차이점이 발생한다.
 
-![imgae](주소)
+![image](https://github.com/Glaz8212/training-task/blob/main/240724-Generic/%EC%A0%9C%EB%84%A4%EB%A6%AD%EA%B3%BC%20%ED%85%9C%ED%94%8C%EB%A6%BF%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.png)
 
 [C++ 템플릿과 C# 제네릭의 차이점 - C#](https://learn.microsoft.com/ko-kr/dotnet/csharp/programming-guide/generics/differences-between-cpp-templates-and-csharp-generics)
