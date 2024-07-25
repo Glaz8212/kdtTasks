@@ -4,7 +4,7 @@
 
 한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들한테 연락이 가고, 자동으로 내용이 갱신되는 방식으로 일대다 (one-to-many) 의존성을 정의한다.
 
-![img1.daumcdn.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d20c9398-3a12-4aae-86e9-5b02a25b9a6f/3cebc974-ef16-47fe-8c95-c2d86c325f9d/img1.daumcdn.png)
+![image](https://github.com/Glaz8212/training-task/blob/main/240725/240725-Delegate/observer.png)
 
 이는 결과적으로 결합도를 높이고 응집도를 낮추게 된다.
 

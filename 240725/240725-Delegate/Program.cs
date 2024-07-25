@@ -12,12 +12,15 @@
             {
                 Console.WriteLine($"플레이어가 {armor.name} 을/를 착용합니다.");
                 curArmor = armor;
+                curArmor.OnBreaked += UnEquip;
             }
 
             public void UnEquip()
             {
                 Console.WriteLine($"플레이어가 {curArmor.name} 을/를 해제합니다.");
+                curArmor.OnBreaked -= UnEquip;
                 curArmor = null;
+
             }
 
             public void Hit()
@@ -54,7 +57,11 @@
             {
                 // 2. 갑옷의 내구도가 0이 될 때, 플레이어가 갑옷을 UnEquip하도록 한다.
                 Console.WriteLine($"{name} 이/가 파괴되었습니다.");
-                OnBreaked?.Invoke();
+                
+                if(OnBreaked != null)
+                {
+                    OnBreaked();
+                }
             }
         }
 
