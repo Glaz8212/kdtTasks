@@ -20,35 +20,30 @@
 
         public class Pikachu : Monster
         {
-            public Pikachu(string name) : base(name) 
-            {
-                skill = "백만볼트";
-
-            }
-            public Pikachu() : base("피카츄")
+            public Pikachu(string name = "피카츄") : base(name)
             {
                 skill = "백만볼트";
             }
         }
         public class Charmander : Monster
         {
-            public Charmander() : base("파이리")
+            public Charmander(string name = "파이리") : base(name)
             {
                 skill = "화염방사";
             }
         }
         public class Squirtle : Monster
         {
-            public Squirtle() : base("꼬북이")
+            public Squirtle(string name = "꼬북이") : base(name)
             {
                 skill = "물총발사";
             }
         }
         public class Bulbasaur : Monster
         {
-            public Bulbasaur() : base("이상해씨")
+            public Bulbasaur(string name = "이상해씨") : base(name)
             {
-                skill = "덩굴채찍";
+                skill = "덩쿨채찍";
             }
         }
         static void Main(string[] args)
